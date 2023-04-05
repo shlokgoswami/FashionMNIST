@@ -1,4 +1,12 @@
 # FashionMNIST
-This project involved developing a deep learning model from scratch for image classification using the FashionMNIST dataset. The project showcased proficiency in deep learning concepts and the ability to implement them effectively, including convolutional and fully connected layers, as well as activation functions such as sigmoid and tanh. The backpropagation algorithm was also implemented for model training, which involved updating weights and biases using a specified learning rate.  
-To efficiently perform matrix operations and convolution calculations for the deep learning model, the NumPy and SciPy libraries in Python were utilized, showcasing the ability to leverage powerful Python libraries to enhance the efficiency and effectiveness of machine learning algorithms. Strong programming skills in Python, including proficiency in object-oriented programming, data structures, and algorithms, were also demonstrated in the project.  
-Problem-solving skills were critical in developing the deep learning model from scratch, requiring identifying the appropriate architecture, activation functions, and hyperparameters for the model, as well as debugging issues that arose during implementation. The project showcased the ability to evaluate problems and devise effective solutions. Overall, the project demonstrated proficiency in deep learning concepts, strong mathematical and programming skills, and the ability to solve complex problems in machine learning.
+# Problem Statement:
+The problem statement for this code is to develop a convolutional neural network (CNN) model using only Numpy and Scipy to classify the FashionMNIST dataset. The goal is to achieve high accuracy in predicting the labels of the images in the test dataset.
+
+
+
+#Solution
+FashionMNIST_CNN_MODEL.py conrains rhe soltuion, the solution is implemented in Python and uses the NumPy and SciPy libraries to efficiently perform matrix operations and convolution calculations for the deep learning model. The code is organized into classes for each layer of the CNN model, including a fully connected layer, activation layer, reshape layer, and convolutional layer.
+
+The code defines a function to calculate mean squared error (MSE) and its derivative, which are used as the loss function and loss derivative function for backpropagation during the training of the CNN model. The code also includes functions to predict the labels of the test dataset and to train the CNN model using the backpropagation algorithm.
+
+The CNN model architecture includes several layers, such as convolutional layers with different kernel sizes, activation layers with different activation functions, fully connected layers with different output sizes, and reshape layers to reshape the output of the convolutional layers. The network is trained on the FashionMNIST dataset using the training dataset, and the accuracy of the model is evaluated on the test dataset.
